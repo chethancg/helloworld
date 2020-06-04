@@ -6,6 +6,7 @@ pipeline {
                      echo 'Checkout successfully'
                      git 'https://github.com/chethancg/helloworld.git'
                  }
+                 }
                  stage('stage 1 : Build') {
                  steps {
                      echo 'Build successfully'
