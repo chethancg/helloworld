@@ -10,8 +10,7 @@ pipeline {
                  stage('stage 1 : Build') {
                  steps {
                      echo 'Build successfully'
-                          bat label: '', script: '''javac HelloWorld.java 
-                                                    java HelloWorld'''
+                          echo 'Hello World'
                        }
                  }
                  stage('stage 2 : Test') {
