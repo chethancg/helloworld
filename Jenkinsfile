@@ -1,6 +1,6 @@
 pipeline {
          agent any
-         node('Test_Slave') {
+        
          stages {
                  stage('stage 0 : Checkout from root Github repo') {
                  steps {
@@ -24,6 +24,6 @@ pipeline {
                      echo 'Deployed successfully'
                  }
                  }
-         }
+         
         }
   }
